@@ -40,14 +40,14 @@ services:
       N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
 
       # HTTPS via reverse proxy
-      N8N_HOST: "n8n.lawrencesystem.com"
+      N8N_HOST: "n8n.fractionalit.io"
       N8N_PORT: 5678
       N8N_PROTOCOL: "https"
-      WEBHOOK_URL: "https://n8n.lawrencesystem.com/"
+      WEBHOOK_URL: "https://n8n.fractionalit.io/"
       N8N_PROXY_HOPS: 1
 
-      GENERIC_TIMEZONE: "America/Detroit"
-      TZ: "America/Detroit"
+      GENERIC_TIMEZONE: "America/Denver"
+      TZ: "America/Denver"
 
       # Postgres
       DB_TYPE: "postgresdb"
